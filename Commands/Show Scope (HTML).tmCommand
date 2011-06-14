@@ -224,6 +224,12 @@ TextMate::UI.tool_tip(html, :format =&gt; 'html')</string>
 			<key>uuid</key>
 			<string>5A9D4FC6-6CBE-11D9-A21B-000D93589AF6</string>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Themes</string>
+			<key>uuid</key>
+			<string>A4380B27-F366-4C70-A542-B00D26ED997E</string>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>99EEC281-C357-45A2-9F83-33B26D9A2977</string>
