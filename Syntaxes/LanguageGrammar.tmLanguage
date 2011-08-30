@@ -1326,6 +1326,10 @@
 														</dict>
 													</array>
 												</dict>
+												<dict>
+													<key>include</key>
+													<string>#patterns</string>
+												</dict>
 											</array>
 										</dict>
 										<dict>
