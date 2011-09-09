@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>Patterns (Repository)</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar meta.dictionary.repository -meta.value-pair.repository-item</string>
+	<string>meta.dictionary.repository.tm-grammar $</string>
 	<key>tabTrigger</key>
 	<string>pat</string>
 	<key>uuid</key>
