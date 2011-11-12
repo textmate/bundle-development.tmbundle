@@ -644,20 +644,20 @@
 						</dict>
 						<dict>
 							<key>begin</key>
-							<string>((["']?)([-a-zA-Z0-9._]+)\2)\s*(=)</string>
+							<string>(["']?)(.*)\1\s*(=)</string>
 							<key>beginCaptures</key>
 							<dict>
-								<key>1</key>
+								<key>2</key>
 								<dict>
-									<key>name</key>
-									<string>string.quoted.single.injections.tm-grammar</string>
+									<key>patterns</key>
+									<array>
+										<dict>
+											<key>include</key>
+											<string>#scope</string>
+										</dict>
+									</array>
 								</dict>
 								<key>3</key>
-								<dict>
-									<key>name</key>
-									<string>constant.other.scope.tm-grammar</string>
-								</dict>
-								<key>4</key>
 								<dict>
 									<key>name</key>
 									<string>punctuation.separator.key-value.tm-grammar</string>
@@ -690,45 +690,6 @@
 									<string>#catch-all</string>
 								</dict>
 							</array>
-						</dict>
-						<dict>
-							<key>include</key>
-							<string>#string</string>
-						</dict>
-						<dict>
-							<key>begin</key>
-							<string>(=)</string>
-							<key>beginCaptures</key>
-							<dict>
-								<key>1</key>
-								<dict>
-									<key>name</key>
-									<string>punctuation.separator.key-value.tm-grammar</string>
-								</dict>
-							</dict>
-							<key>end</key>
-							<string>(;)</string>
-							<key>endCaptures</key>
-							<dict>
-								<key>1</key>
-								<dict>
-									<key>name</key>
-									<string>punctuation.terminator.dictionary.tm-grammar</string>
-								</dict>
-							</dict>
-							<key>patterns</key>
-							<array>
-								<dict>
-									<key>include</key>
-									<string>#any</string>
-								</dict>
-							</array>
-						</dict>
-						<dict>
-							<key>match</key>
-							<string>;</string>
-							<key>name</key>
-							<string>punctuation.terminator.dictionary.tm-grammar</string>
 						</dict>
 						<dict>
 							<key>include</key>
