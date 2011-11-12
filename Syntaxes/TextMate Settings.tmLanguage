@@ -4,10 +4,6 @@
 <dict>
 	<key>fileTypes</key>
 	<array/>
-	<key>foldingStartMarker</key>
-	<string>^\s*([a-zA-Z_-]+ = )?[{(](?!.*[)}][;,]?\s*$)</string>
-	<key>foldingStopMarker</key>
-	<string>^\s*(\}|\))</string>
 	<key>name</key>
 	<string>TextMate Settings</string>
 	<key>patterns</key>

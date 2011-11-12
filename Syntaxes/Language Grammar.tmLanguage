@@ -8,10 +8,6 @@
 	</array>
 	<key>firstLineMatch</key>
 	<string>^\{\s*scopeName = .*$</string>
-	<key>foldingStartMarker</key>
-	<string>^\s*([a-zA-Z_-]+ = )?[{(](?!.*[)}][;,]?\s*$)</string>
-	<key>foldingStopMarker</key>
-	<string>^\s*(\}|\))</string>
 	<key>keyEquivalent</key>
 	<string>^~L</string>
 	<key>name</key>
