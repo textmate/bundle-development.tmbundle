@@ -302,7 +302,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>completionCommand|characterClass|background|foreground|caret|invisibles|selection|fontStyle|fontName|fontSize</string>
+					<string>completionCommand|characterClass|background|foreground|caret|invisibles|selection|fontStyle|fontName</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
@@ -352,6 +352,140 @@
 								<dict>
 									<key>include</key>
 									<string>#stray_alpha</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#stray</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>fontSize</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>constant.other.key.plist</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>;|(?=\})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.dictionary.plist</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>meta.scope.dictionary-item.$0.plist</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>begin</key>
+							<string>=</string>
+							<key>end</key>
+							<string>(?=;|\})</string>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>begin</key>
+									<string>(?="|'|[-a-zA-Z0-9_.])</string>
+									<key>end</key>
+									<string>(?=;|\})</string>
+									<key>patterns</key>
+									<array>
+										<dict>
+											<key>begin</key>
+											<string>\G'</string>
+											<key>beginCaptures</key>
+											<dict>
+												<key>0</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.begin.plist</string>
+												</dict>
+											</dict>
+											<key>end</key>
+											<string>'(?!')</string>
+											<key>endCaptures</key>
+											<dict>
+												<key>0</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.end.plist</string>
+												</dict>
+											</dict>
+											<key>name</key>
+											<string>string.quoted.single.plist</string>
+											<key>patterns</key>
+											<array>
+												<dict>
+													<key>captures</key>
+													<dict>
+														<key>1</key>
+														<dict>
+															<key>name</key>
+															<string>constant.numeric.plist</string>
+														</dict>
+														<key>3</key>
+														<dict>
+															<key>name</key>
+															<string>keyword.other.unit.plist</string>
+														</dict>
+													</dict>
+													<key>match</key>
+													<string>\G([0-9]+(\.[0-9]+)?)([ ]?(%|pt|em))?</string>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>begin</key>
+											<string>\G"</string>
+											<key>beginCaptures</key>
+											<dict>
+												<key>0</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.begin.plist</string>
+												</dict>
+											</dict>
+											<key>end</key>
+											<string>"</string>
+											<key>endCaptures</key>
+											<dict>
+												<key>0</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.end.plist</string>
+												</dict>
+											</dict>
+											<key>name</key>
+											<string>string.quoted.double.plist</string>
+											<key>patterns</key>
+											<array>
+												<dict>
+													<key>match</key>
+													<string>\G[0-9]+(\.[0-9]+)?[ ]?(%|pt|em)?</string>
+													<key>name</key>
+													<string>constant.numeric.plist</string>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>include</key>
+											<string>#stray_alpha</string>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>include</key>
+									<string>#stray</string>
 								</dict>
 							</array>
 						</dict>
