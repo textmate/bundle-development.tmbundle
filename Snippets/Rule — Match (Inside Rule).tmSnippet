@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Rule — Match (Inside Rule)</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar meta.dictionary.rule</string>
+	<string>source.plist.textmate.grammar meta.dictionary.rule</string>
 	<key>tabTrigger</key>
 	<string>mat</string>
 	<key>uuid</key>

@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>Rule — Match (Repository)</string>
 	<key>scope</key>
-	<string>meta.dictionary.repository.tm-grammar $</string>
+	<string>source.plist.textmate.grammar meta.dictionary.repository.plist $</string>
 	<key>tabTrigger</key>
 	<string>mat</string>
 	<key>uuid</key>

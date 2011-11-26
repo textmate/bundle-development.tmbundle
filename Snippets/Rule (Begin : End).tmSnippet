@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>Rule — Begin / End</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar meta.array.patterns</string>
+	<string>source.plist.textmate.grammar meta.array.patterns</string>
 	<key>tabTrigger</key>
 	<string>beg</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List (Repository Items)</string>
 	<key>scope</key>
-	<string>meta.dictionary.repository.tm-grammar entity.name.section.repository.tm-grammar</string>
+	<string>source.plist.textmate.grammar meta.dictionary.repository entity.name.section.repository</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>

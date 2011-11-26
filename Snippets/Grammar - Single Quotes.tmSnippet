@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Grammar - Single Quotes</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar string.quoted.single, source.plist.tm-grammar string.regexp.oniguruma.single</string>
+	<string>source.plist.textmate.grammar string.quoted.single, source.plist.textmate.grammar string.regexp.oniguruma.single</string>
 	<key>uuid</key>
 	<string>012C6C9B-07CC-40B8-A10B-B95B253A94A1</string>
 </dict>

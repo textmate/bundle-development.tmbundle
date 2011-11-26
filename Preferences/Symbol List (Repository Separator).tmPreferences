@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List (Repository Separator)</string>
 	<key>scope</key>
-	<string>support.constant.repository.tm-grammar</string>
+	<string>source.plist.textmate.grammar support.constant.repository</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>

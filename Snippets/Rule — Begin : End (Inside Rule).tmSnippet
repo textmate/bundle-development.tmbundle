@@ -8,7 +8,7 @@ end = '$2';</string>
 	<key>name</key>
 	<string>Rule — Begin / End (Inside Rule)</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar meta.dictionary.rule</string>
+	<string>source.plist.textmate.grammar meta.dictionary.rule</string>
 	<key>tabTrigger</key>
 	<string>beg</string>
 	<key>uuid</key>

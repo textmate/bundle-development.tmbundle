@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar constant.other.scope - (meta.dictionary.repository|meta.value-pair.scopename)</string>
+	<string>source.plist.textmate.grammar constant.other.scope - (meta.dictionary.repository|meta.value-pair.scopename)</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>

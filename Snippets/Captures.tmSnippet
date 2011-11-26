@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Captures</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar</string>
+	<string>source.plist.textmate.grammar</string>
 	<key>tabTrigger</key>
 	<string>cap</string>
 	<key>uuid</key>

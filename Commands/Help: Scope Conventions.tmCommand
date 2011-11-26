@@ -15,7 +15,7 @@
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>string.quoted.single.scope.tm-grammar, string.quoted.single.scope.root.tm-grammar, string.quoted.double.scope.tm-grammar, string.quoted.double.scope.root.tm-grammar</string>
+	<string>source.plist.textmate.grammar string.quoted.single.scope, source.plist.textmate.grammar string.quoted.double.scope</string>
 	<key>uuid</key>
 	<string>385A50A5-37DB-4B58-A6B0-1849D17A322F</string>
 </dict>

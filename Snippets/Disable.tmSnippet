@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Disable</string>
 	<key>scope</key>
-	<string>source.plist.tm-grammar</string>
+	<string>source.plist.textmate.grammar</string>
 	<key>tabTrigger</key>
 	<string>dis</string>
 	<key>uuid</key>

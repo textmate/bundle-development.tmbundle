@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
@@ -226,15 +226,23 @@ variable.parameter.
 	<string>scope</string>
 	<key>input</key>
 	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string></string>
 	<key>name</key>
 	<string>Scope Completion</string>
-	<key>output</key>
-	<string>afterSelectedText</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>atCaret</string>
 	<key>scope</key>
-	<string>string.quoted.single.scope.tm-grammar -punctuation.definition.string.begin, string.quoted.single.scope.root.tm-grammar -punctuation.definition.string.begin,  string.quoted.single.include.tm-grammar -punctuation.definition.string.begin, string.quoted.double.scope.tm-grammar -punctuation.definition.string.begin, string.quoted.double.scope.root.tm-grammar -punctuation.definition.string.begin,  string.quoted.double.include.tm-grammar -punctuation.definition.string.begin</string>
+	<string>source.plist.textmate.grammar (string.quoted.single.scope.plist -punctuation.definition.string.begin, string.quoted.single.scope.root.plist -punctuation.definition.string.begin,  string.quoted.single.include.plist -punctuation.definition.string.begin, string.quoted.double.scope.plist -punctuation.definition.string.begin, string.quoted.double.scope.root.plist -punctuation.definition.string.begin,  string.quoted.double.include.plist -punctuation.definition.string.begin)</string>
 	<key>uuid</key>
 	<string>DF2093BA-EA37-4546-9ADA-C17A13CEBDA9</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
