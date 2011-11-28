@@ -558,7 +558,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>disableDefaultCompletion|showInSymbolList|spellChecking|disableIndentCorrections|misspelled</string>
+					<string>disableDefaultCompletion|showInSymbolList|spellChecking|disableIndentCorrections|misspelled|bold|italic|underline|softWrap</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
@@ -600,6 +600,86 @@
 											<string>\G[01]</string>
 											<key>name</key>
 											<string>constant.numeric.plist</string>
+										</dict>
+										<dict>
+											<key>include</key>
+											<string>#stray_alpha</string>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>begin</key>
+									<string>(?=['"])</string>
+									<key>end</key>
+									<string>(?=;|\})</string>
+									<key>patterns</key>
+									<array>
+										<dict>
+											<key>captures</key>
+											<dict>
+												<key>1</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.begin.plist</string>
+												</dict>
+												<key>2</key>
+												<dict>
+													<key>name</key>
+													<string>constant.numeric.plist</string>
+												</dict>
+												<key>3</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.end.plist</string>
+												</dict>
+											</dict>
+											<key>match</key>
+											<string>(')([01])(')</string>
+											<key>name</key>
+											<string>string.quoted.single.plist</string>
+										</dict>
+										<dict>
+											<key>captures</key>
+											<dict>
+												<key>1</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.begin.plist</string>
+												</dict>
+												<key>2</key>
+												<dict>
+													<key>name</key>
+													<string>constant.numeric.plist</string>
+												</dict>
+												<key>3</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.definition.string.end.plist</string>
+												</dict>
+											</dict>
+											<key>match</key>
+											<string>(")([01])(")</string>
+											<key>name</key>
+											<string>string.quoted.double.plist</string>
+										</dict>
+										<dict>
+											<key>include</key>
+											<string>#stray_alpha</string>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>begin</key>
+									<string>(?=:)</string>
+									<key>end</key>
+									<string>(?=;|\})</string>
+									<key>patterns</key>
+									<array>
+										<dict>
+											<key>match</key>
+											<string>\G:(true|false)</string>
+											<key>name</key>
+											<string>constant.language.boolean.plist</string>
 										</dict>
 										<dict>
 											<key>include</key>
