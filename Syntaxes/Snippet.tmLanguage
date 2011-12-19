@@ -161,6 +161,40 @@
 					<key>name</key>
 					<string>variable.other.predefined.placeholder.w-default.tm-snippet</string>
 				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(\$\{)\d+(|)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.variable.begin.tm-snippet</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.default-value.dropdown.tm-snippet</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(|)(\})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.default-value.dropdown.tm-snippet</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.variable.end.tm-snippet</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>variable.other.predefined.placeholder.w-default.tm-snippet</string>
+				</dict>
 			</array>
 		</dict>
 		<key>transformations</key>
