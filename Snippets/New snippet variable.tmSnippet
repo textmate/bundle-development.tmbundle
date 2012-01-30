@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\${${1:1}:${2:$TM_SELECTED_TEXT}}</string>
+	<key>keyEquivalent</key>
+	<string>^@4</string>
+	<key>name</key>
+	<string>New snippet variable</string>
+	<key>scope</key>
+	<string>text.tm-snippet</string>
+	<key>tabTrigger</key>
+	<string>var</string>
+	<key>uuid</key>
+	<string>97263C7A-5025-4952-BFE7-BF6B153AF2D8</string>
+</dict>
+</plist>
