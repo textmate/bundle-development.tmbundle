@@ -7,7 +7,7 @@
 	<key>keyEquivalent</key>
 	<string>^@4</string>
 	<key>name</key>
-	<string>New snippet variable</string>
+	<string>Insert variable ${1:}</string>
 	<key>scope</key>
 	<string>text.tm-snippet</string>
 	<key>tabTrigger</key>
