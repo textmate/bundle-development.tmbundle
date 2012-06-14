@@ -12,8 +12,6 @@
 #                      scope: ${7|text.tm-snippet,text.html.markdown,text.html.markdown.multimarkdown,text.html|}
 #              keyEquivalent: 
 </string>
-	<key>keyEquivalent</key>
-	<string>^~@q</string>
 	<key>name</key>
 	<string>New command template</string>
 	<key>scope</key>

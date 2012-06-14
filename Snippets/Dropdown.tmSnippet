@@ -4,8 +4,6 @@
 <dict>
 	<key>content</key>
 	<string>\${${1:1}|${2:$TM_SELECTED_TEXT},${3:choice2}|}</string>
-	<key>keyEquivalent</key>
-	<string>^@4</string>
 	<key>name</key>
 	<string>Insert Dropdown Variable</string>
 	<key>scope</key>
