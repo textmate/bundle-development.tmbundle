@@ -81,20 +81,7 @@ module Textpow
    end
 end
 
-# Load TM preferences to discover the current theme and font settings
-if File.file?(File.expand_path('~/Library/Preferences/com.macromates.TextMate.preview.plist'))
-  textmate_pref_file = '~/Library/Preferences/com.macromates.TextMate.preview.plist'
-else
-  textmate_pref_file = '~/Library/Preferences/com.macromates.textmate.plist'
-end
-prefs = OSX::PropertyList.load(File.open(File.expand_path(textmate_pref_file)))
-theme_uuid = prefs['themeUUID']
-# Load the active theme. Unfortunately, this requires us to scan through
-# all discoverable theme files...
-unless theme_plist = find_theme(theme_uuid)
-	print "Could not locate your theme file!"
-	abort
-end
+theme_plist = load_theme
 
 scorer = Textpow::ScoreManager.new
 
@@ -107,8 +94,8 @@ end while scopes.pop and not scopes.empty?
 body_bg = '#fff'
 body_fg = '#000'
 
-font_name = prefs['OakTextViewNormalFontName'] || 'Monaco'
-font_size = (prefs['OakTextViewNormalFontSize'] || 11).to_s
+font_name = `"$TM_QUERY" --setting fontName`.chomp || 'Menlo-Regular'
+font_size = (`"$TM_QUERY" --setting fontSize`.chomp || 12).to_s
 font_size.sub!(/\.\d+$/, '')
 
 FONT_MAP.each do | font_re, font_alt |
