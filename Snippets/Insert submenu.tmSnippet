@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;key&gt;`uuidgen`&lt;/key&gt;
+&lt;dict&gt;
+	&lt;key&gt;name&lt;/key&gt;
+	&lt;string&gt;${1:Menu name}&lt;/string&gt;
+	&lt;key&gt;items&lt;/key&gt;
+	&lt;array&gt;
+		&lt;string&gt;UUID OF YOUR FIRST ITEM HERE&lt;/string&gt;
+	&lt;/array&gt;
+&lt;/dict&gt;
+</string>
+	<key>name</key>
+	<string>Insert submenu</string>
+	<key>tabTrigger</key>
+	<string>submenu</string>
+	<key>uuid</key>
+	<string>0DC2EB45-F02B-4824-8149-B6B5D1A55D74</string>
+</dict>
+</plist>
