@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>\${${1:1}|${2:$TM_SELECTED_TEXT},${3:choice2}|}</string>
 	<key>name</key>
-	<string>Insert Dropdown Variable</string>
+	<string>Insert menu-variable</string>
 	<key>scope</key>
 	<string>text.tm-snippet</string>
 	<key>tabTrigger</key>
-	<string>drop</string>
+	<string>menu</string>
 	<key>uuid</key>
 	<string>CA95C9B1-79CF-41AE-B537-5860FF817D73</string>
 </dict>
