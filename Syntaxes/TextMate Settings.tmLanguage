@@ -1119,7 +1119,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>symbolTransformation|decreaseIndentPattern|increaseIndentPattern|indentNextLinePattern|unIndentedLinePattern|decreaseIndentPattern|increaseIndentPattern|foldingStartMarker|foldingStopMarker|foldingIndentedBlockIgnore|foldingIndentedBlockStart</string>
+					<string>symbolTransformation|decreaseIndentPattern|increaseIndentPattern|indentNextLinePattern|unIndentedLinePattern|zeroIndentPattern|foldingStartMarker|foldingStopMarker|foldingIndentedBlockIgnore|foldingIndentedBlockStart</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
