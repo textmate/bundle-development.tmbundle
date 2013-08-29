@@ -160,13 +160,6 @@
 				<dict>
 					<key>name</key>
 					<string>constant.other.key.plist</string>
-					<key>patterns</key>
-					<array>
-						<dict>
-							<key>include</key>
-							<string>#string-contents</string>
-						</dict>
-					</array>
 				</dict>
 				<key>4</key>
 				<dict>
@@ -187,13 +180,6 @@
 				<dict>
 					<key>name</key>
 					<string>constant.other.key.plist</string>
-					<key>patterns</key>
-					<array>
-						<dict>
-							<key>include</key>
-							<string>#string-contents</string>
-						</dict>
-					</array>
 				</dict>
 				<key>8</key>
 				<dict>
@@ -689,13 +675,6 @@
 														<dict>
 															<key>name</key>
 															<string>invalid.illegal.invalid_key.plist</string>
-															<key>patterns</key>
-															<array>
-																<dict>
-																	<key>include</key>
-																	<string>#string-contents</string>
-																</dict>
-															</array>
 														</dict>
 														<key>4</key>
 														<dict>
@@ -716,13 +695,6 @@
 														<dict>
 															<key>name</key>
 															<string>invalid.illegal.invalid_key.plist</string>
-															<key>patterns</key>
-															<array>
-																<dict>
-																	<key>include</key>
-																	<string>#string-contents</string>
-																</dict>
-															</array>
 														</dict>
 														<key>8</key>
 														<dict>
@@ -1197,13 +1169,6 @@
 						<dict>
 							<key>name</key>
 							<string>invalid.illegal.invalid_key.plist</string>
-							<key>patterns</key>
-							<array>
-								<dict>
-									<key>include</key>
-									<string>#string-contents</string>
-								</dict>
-							</array>
 						</dict>
 						<key>4</key>
 						<dict>
@@ -1224,13 +1189,6 @@
 						<dict>
 							<key>name</key>
 							<string>invalid.illegal.invalid_key.plist</string>
-							<key>patterns</key>
-							<array>
-								<dict>
-									<key>include</key>
-									<string>#string-contents</string>
-								</dict>
-							</array>
 						</dict>
 						<key>8</key>
 						<dict>
