@@ -411,7 +411,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>completionCommand|characterClass|background|foreground|caret|invisibles|selection|fontStyle|fontName|indentOnPaste</string>
+					<string>completionCommand|characterClass|background|foreground|caret|invisibles|selection|fontStyle|fontName|indentOnPaste|wordCharacters</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
