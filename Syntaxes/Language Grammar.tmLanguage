@@ -640,7 +640,7 @@
 						</dict>
 						<dict>
 							<key>begin</key>
-							<string>(["']?)(.*)\1\s*(=)</string>
+							<string>(["']?)([^=]*)\1\s*(=)</string>
 							<key>beginCaptures</key>
 							<dict>
 								<key>2</key>
