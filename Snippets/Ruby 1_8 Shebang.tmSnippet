@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -wKU
+</string>
+	<key>name</key>
+	<string>Ruby 1.8 Shebang</string>
+	<key>scope</key>
+	<string>L:(attr.bundle-editor.command dyn.caret.begin.document)</string>
+	<key>tabTrigger</key>
+	<string>rb</string>
+	<key>uuid</key>
+	<string>80CAE306-2C3F-418E-9DAD-B21A244D4807</string>
+</dict>
+</plist>
