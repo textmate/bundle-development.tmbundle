@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Requires TextMate `defaults read "$TM_APP_PATH/Contents/Info" CFBundleShortVersionString`</string>
+	<key>name</key>
+	<string>Commit Message: Requires «version»</string>
+	<key>scope</key>
+	<string>text.git-commit</string>
+	<key>tabTrigger</key>
+	<string>req</string>
+	<key>uuid</key>
+	<string>4B73A2A2-D227-444F-B6B4-C2DEF4D0863E</string>
+</dict>
+</plist>
