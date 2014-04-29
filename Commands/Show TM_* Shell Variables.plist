@@ -17,7 +17,7 @@
 	<key>keyEquivalent</key>
 	<string>^@P</string>
 	<key>name</key>
-	<string>Show TM_* Variables</string>
+	<string>Show TextMate Variables</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>standardInput</key>
