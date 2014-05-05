@@ -6,9 +6,9 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>tr &lt;&lt;&lt; "$TM_SCOPE" ' ' '\n'
-if [[ -n "$TM_LEFT_SCOPE" ]]; then
+if [[ -n "$TM_SCOPE_LEFT" ]]; then
   echo $'\nLeft Scope:\n'
-  tr &lt;&lt;&lt; "$TM_LEFT_SCOPE" ' ' '\n'
+  tr &lt;&lt;&lt; "$TM_SCOPE_LEFT" ' ' '\n'
 fi
 </string>
 	<key>input</key>
