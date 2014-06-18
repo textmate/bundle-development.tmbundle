@@ -7,7 +7,7 @@
 	<key>bundleUUID</key>
 	<string>679EFB46-5368-47E5-85BA-DEF72709A471</string>
 	<key>command</key>
-	<string>#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+	<string>#!/usr/bin/env ruby18
 
 require ENV['TM_TEXTMATE_BUNDLE_SUPPORT'] + '/lib/doctohtml'
 require ENV['TM_SUPPORT_PATH'] + '/lib/ui'
