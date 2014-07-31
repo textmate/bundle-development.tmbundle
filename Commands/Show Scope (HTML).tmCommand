@@ -11,9 +11,6 @@
 
 require ENV['TM_TEXTMATE_BUNDLE_SUPPORT'] + '/lib/doctohtml'
 require ENV['TM_SUPPORT_PATH'] + '/lib/ui'
-require "rubygems"
-# require 'textpow'
-require "pp"
 
 module Textpow
    class ScoreManager
