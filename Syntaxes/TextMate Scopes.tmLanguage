@@ -10,24 +10,46 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>#grammar</string>
+			<string>#scope_language</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#root</string>
+			<string>#scope_root</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#attr</string>
+			<string>#scope_attr</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#dyn</string>
+			<string>#scope_dyn</string>
 		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
-		<key>attr</key>
+		<key>scope</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#scope_language</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#scope_root</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#scope_attr</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#scope_dyn</string>
+				</dict>
+			</array>
+		</dict>
+		<key>scope_attr</key>
 		<dict>
 			<key>patterns</key>
 			<array>
@@ -75,7 +97,7 @@
 				</dict>
 			</array>
 		</dict>
-		<key>dyn</key>
+		<key>scope_dyn</key>
 		<dict>
 			<key>patterns</key>
 			<array>
@@ -123,7 +145,7 @@
 				</dict>
 			</array>
 		</dict>
-		<key>grammar</key>
+		<key>scope_language</key>
 		<dict>
 			<key>patterns</key>
 			<array>
@@ -571,7 +593,7 @@
 				</dict>
 			</array>
 		</dict>
-		<key>root</key>
+		<key>scope_root</key>
 		<dict>
 			<key>patterns</key>
 			<array>
