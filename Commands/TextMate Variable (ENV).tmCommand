@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby18 -wKU
+
+keys = ENV.keys.select { |e| e =~ /^TM_/ }
+print "ENV['${1|#{keys.join(',')}|}']"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>TextMate Variable (ENV)</string>
+	<key>outputFormat</key>
+	<string>snippet</string>
+	<key>outputLocation</key>
+	<string>atCaret</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>env</string>
+	<key>uuid</key>
+	<string>19C1DA95-E682-4FE1-973F-00994065C520</string>
+</dict>
+</plist>

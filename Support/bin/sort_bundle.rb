@@ -1,4 +1,4 @@
-#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -wKU
+#!/usr/bin/env ruby18 -wKU
 
 $: << '/Applications/TextMate.app/Contents/SharedSupport/Support/lib/'
 $: << '/Library/Application Support/TextMate/Support/lib/'

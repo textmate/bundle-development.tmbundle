@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require "#{ENV['${1|TM_SUPPORT_PATH,TM_BUNDLE_SUPPORT|}']}/lib/${2:escape.rb}"</string>
+	<string>Requires TextMate `defaults read "$TM_APP_PATH/Contents/Info" CFBundleShortVersionString`</string>
 	<key>name</key>
-	<string>Require Support File</string>
+	<string>Commit Message: Requires «version»</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>text.git-commit</string>
 	<key>tabTrigger</key>
-	<string>sup</string>
+	<string>req</string>
 	<key>uuid</key>
-	<string>526FEEF9-9C52-4165-B814-7DAB441084D5</string>
+	<string>4B73A2A2-D227-444F-B6B4-C2DEF4D0863E</string>
 </dict>
 </plist>
