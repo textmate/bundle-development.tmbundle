@@ -1495,6 +1495,16 @@
 						<key>12</key>
 						<dict>
 							<key>name</key>
+							<string>constant.language.boolean.true.plist</string>
+						</dict>
+						<key>13</key>
+						<dict>
+							<key>name</key>
+							<string>constant.language.boolean.false.plist</string>
+						</dict>
+						<key>14</key>
+						<dict>
+							<key>name</key>
 							<string>punctuation.terminator.dictionary.plist</string>
 						</dict>
 						<key>2</key>
@@ -1541,7 +1551,7 @@
 					<key>comment</key>
 					<string>disabled, applyEndPatternLast</string>
 					<key>match</key>
-					<string>\b(disabled|applyEndPatternLast)\s*(=)\s*(?:(0|1)|((")(0|1)("))|((')(0|1)(')))\s*(;)</string>
+					<string>\b(disabled|applyEndPatternLast)\s*(=)\s*(?:(0|1)|((")(0|1)("))|((')(0|1)('))|(:true)|(:false))\s*(;)</string>
 				</dict>
 				<dict>
 					<key>include</key>
