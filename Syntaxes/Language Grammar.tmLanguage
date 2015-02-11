@@ -1630,6 +1630,10 @@
 									<key>include</key>
 									<string>text.tm-scope#scope_language</string>
 								</dict>
+								<dict>
+									<key>include</key>
+									<string>text.tm-scope#scope_root</string>
+								</dict>
 							</array>
 						</dict>
 						<key>3</key>
@@ -1658,6 +1662,10 @@
 								<dict>
 									<key>include</key>
 									<string>text.tm-scope#scope_language</string>
+								</dict>
+								<dict>
+									<key>include</key>
+									<string>text.tm-scope#scope_root</string>
 								</dict>
 							</array>
 						</dict>
