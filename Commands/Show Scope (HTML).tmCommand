@@ -91,8 +91,8 @@ end while scopes.pop and not scopes.empty?
 body_bg = '#fff'
 body_fg = '#000'
 
-font_name = `"$TM_QUERY" --setting fontName`.chomp || 'Menlo-Regular'
-font_size = (`"$TM_QUERY" --setting fontSize`.chomp || 12).to_s
+font_name = `"$TM_QUERY" 2&gt;/dev/null --setting fontName`.chomp || 'Menlo-Regular'
+font_size = (`"$TM_QUERY" 2&gt;/dev/null --setting fontSize`.chomp || 12).to_s
 font_size.sub!(/\.\d+$/, '')
 
 FONT_MAP.each do | font_re, font_alt |
