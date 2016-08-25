@@ -17,16 +17,24 @@
 		<dict>
 			<key>begin</key>
 			<string>(\{)</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.dictionary.plist</string>
+					<string>punctuation.section.dictionary.begin.plist</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\})</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.dictionary.end.plist</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -112,16 +120,24 @@
 						<dict>
 							<key>begin</key>
 							<string>(\()</string>
-							<key>captures</key>
+							<key>beginCaptures</key>
 							<dict>
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.section.array.plist</string>
+									<string>punctuation.section.array.begin.plist</string>
 								</dict>
 							</dict>
 							<key>end</key>
 							<string>(\))</string>
+							<key>endCaptures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.section.array.end.plist</string>
+								</dict>
+							</dict>
 							<key>patterns</key>
 							<array>
 								<dict>
@@ -315,16 +331,24 @@
 		<dict>
 			<key>begin</key>
 			<string>(\()</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.array.plist</string>
+					<string>punctuation.section.array.begin.plist</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\))</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.array.end.plist</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -525,16 +549,24 @@
 		<dict>
 			<key>begin</key>
 			<string>(\{)</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.dictionary.plist</string>
+					<string>punctuation.section.dictionary.begin.plist</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\})</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.dictionary.end.plist</string>
+				</dict>
+			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -622,16 +654,24 @@
 				<dict>
 					<key>begin</key>
 					<string>(\{)</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.dictionary.plist</string>
+							<string>punctuation.section.dictionary.begin.plist</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(\})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.dictionary.end.plist</string>
+						</dict>
+					</dict>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -763,16 +803,24 @@
 				<dict>
 					<key>begin</key>
 					<string>(\()</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.array.plist</string>
+							<string>punctuation.section.array.begin.plist</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(\))</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.array.end.plist</string>
+						</dict>
+					</dict>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -948,16 +996,24 @@
 				<dict>
 					<key>begin</key>
 					<string>(\{)</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.dictionary.plist</string>
+							<string>punctuation.section.dictionary.begin.plist</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(\})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.dictionary.end.plist</string>
+						</dict>
+					</dict>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1059,16 +1115,24 @@
 		<dict>
 			<key>begin</key>
 			<string>(\{)</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.dictionary.plist</string>
+					<string>punctuation.section.dictionary.begin.plist</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\})</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.dictionary.end.plist</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.dictionary.rule.plist</string>
 			<key>patterns</key>
@@ -1332,16 +1396,24 @@
 						<dict>
 							<key>begin</key>
 							<string>(\{)</string>
-							<key>captures</key>
+							<key>beginCaptures</key>
 							<dict>
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.section.dictionary.plist</string>
+									<string>punctuation.section.dictionary.begin.plist</string>
 								</dict>
 							</dict>
 							<key>end</key>
 							<string>(\})</string>
+							<key>endCaptures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.section.dictionary.end.plist</string>
+								</dict>
+							</dict>
 							<key>patterns</key>
 							<array>
 								<dict>
@@ -1382,16 +1454,24 @@
 										<dict>
 											<key>begin</key>
 											<string>(\{)</string>
-											<key>captures</key>
+											<key>beginCaptures</key>
 											<dict>
 												<key>1</key>
 												<dict>
 													<key>name</key>
-													<string>punctuation.section.dictionary.plist</string>
+													<string>punctuation.section.dictionary.begin.plist</string>
 												</dict>
 											</dict>
 											<key>end</key>
 											<string>(\})</string>
+											<key>endCaptures</key>
+											<dict>
+												<key>1</key>
+												<dict>
+													<key>name</key>
+													<string>punctuation.section.dictionary.end.plist</string>
+												</dict>
+											</dict>
 											<key>patterns</key>
 											<array>
 												<dict>
