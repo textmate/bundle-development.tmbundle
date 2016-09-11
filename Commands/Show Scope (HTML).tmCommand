@@ -157,7 +157,6 @@ html = &lt;&lt;-HTML
     font-size: #{font_size}px;
     background-color: #{body_bg};
     color: #{body_fg};
-    border: 1px solid #{body_fg};
   }
 &lt;/style&gt;
 #{contents}
