@@ -150,6 +150,17 @@ list.reverse.each do |scope|
   contents &lt;&lt; '&gt;' + scope.split.pop + '&lt;/div&gt;'
 end
 
+bg_is_dark = case body_bg
+when /^\#(..)(..)(..)/
+  0.30 * $0.hex + 0.59 * $1.hex + 0.11 * $2.hex &lt;= 255/2
+when /^rgba?\(([^,)]+),\s*([^,)]+),\s*([^,)]+)/
+  0.30 * $0.to_i + 0.59 * $1.to_i + 0.11 * $2.to_i &lt;= 255/2
+else
+  true
+end
+
+border = if bg_is_dark then "border: 1px solid #{body_fg};" else "" end
+
 html = &lt;&lt;-HTML
 &lt;style type="text/css" media="screen"&gt;
   body {
@@ -157,7 +168,7 @@ html = &lt;&lt;-HTML
     font-size: #{font_size}px;
     background-color: #{body_bg};
     color: #{body_fg};
-    border: 1px solid #{body_fg};
+    #{border}
   }
 &lt;/style&gt;
 #{contents}
