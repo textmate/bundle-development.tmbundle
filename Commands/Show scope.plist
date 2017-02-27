@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>tr &lt;&lt;&lt; "$TM_SCOPE" ' ' '\n'
-if [[ -n "$TM_SCOPE_LEFT" ]]; then
+if [[ -n "$TM_SCOPE_LEFT" &amp;&amp; "$TM_SCOPE_LEFT" != "$TM_SCOPE" ]]; then
   echo $'\nLeft Scope:\n'
   tr &lt;&lt;&lt; "$TM_SCOPE_LEFT" ' ' '\n'
 fi
