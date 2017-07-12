@@ -16,6 +16,10 @@
 		</dict>
 		<dict>
 			<key>include</key>
+			<string>#comments</string>
+		</dict>
+		<dict>
+			<key>include</key>
 			<string>#interpolation</string>
 		</dict>
 		<dict>
@@ -33,6 +37,40 @@
 	</array>
 	<key>repository</key>
 	<dict>
+		<key>comments</key>
+		<dict>
+			<key>begin</key>
+			<string>(^[ \t]+)?(?=#)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.whitespace.comment.leading.snippet</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?!\G)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>#</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.snippet</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\n</string>
+					<key>name</key>
+					<string>comment.line.number-sign.snippet</string>
+				</dict>
+			</array>
+		</dict>
 		<key>interpolation</key>
 		<dict>
 			<key>begin</key>
@@ -152,6 +190,40 @@
 					<string>(\})</string>
 					<key>endCaptures</key>
 					<dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.variable.end.tm-snippet</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>variable.other.predefined.placeholder.w-default.tm-snippet</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(\$\{)\d+(|)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.variable.begin.tm-snippet</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.default-value.dropdown.tm-snippet</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(|)(\})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.default-value.dropdown.tm-snippet</string>
+						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>

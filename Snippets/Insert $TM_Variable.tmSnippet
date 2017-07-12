@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1|TM_FULLNAME,TM_ORGANIZATION,TM_BUNDLE_SUPPORT,TM_CURRENT_LINE,TM_CURRENT_WORD,TM_DIRECTORY,TM_FILEPATH,TM_LINE_INDEX,TM_LINE_NUMBER,TM_PROJECT_DIRECTORY,TM_SCOPE,TM_SELECTED_FILES,TM_SELECTED_FILE,TM_SELECTED_TEXT,TM_SOFT_TABS,TM_SUPPORT_PATH,TM_TAB_SIZE|}</string>
+	<key>name</key>
+	<string>Insert $TM_Variable</string>
+	<key>scope</key>
+	<string>text.tm-snippet</string>
+	<key>tabTrigger</key>
+	<string>TM</string>
+	<key>uuid</key>
+	<string>AD3ADCA5-9A00-431E-A8CD-74642505C54A</string>
+</dict>
+</plist>
